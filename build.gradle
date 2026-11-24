@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'net.kdy05'
+group = 'net.shai0717'
 version = '1.0.0'
 
 repositories {
@@ -12,24 +12,24 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT'
+    compileOnly 'io.papermc.paper:paper-api:26.3.build.254-stable'
 }
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
+        languageVersion = JavaLanguageVersion.of(25)
     }
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.release = 21
+    options.release = 25
     options.encoding = 'UTF-8'
 }
 
 tasks.register('skyAirTest', JavaExec) {
     dependsOn testClasses
     classpath = sourceSets.test.runtimeClasspath
-    mainClass = 'net.kdy05.skyairban.SkyAirTest'
+    mainClass = 'net.shai0717.skyairban.SkyAirTest'
 }
 
 test.enabled = false
