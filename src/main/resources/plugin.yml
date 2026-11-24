@@ -1,0 +1,6 @@
+name: SkyAirBan
+version: 1.0.0
+main: net.kdy05.skyairban.Main
+description: Prevents placement in air connected to the sky at chunk generation.
+api-version: '1.21'
+load: POSTWORLD
