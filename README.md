@@ -24,4 +24,4 @@
 - 청크를 정상 저장하기 전 서버가 비정상 종료되면 해당 청크와 기록이 마지막 저장 상태로 돌아갈 수 있습니다. 청크의 기록이 손상되거나 월드 높이가 변경되면 오류를 로그에 남기고 해당 청크의 직접 설치를 차단합니다. 복구 전 월드 백업을 권장합니다.
 
 
-<iframe src="https://github.com/sponsors/Shai0717/card" title="Sponsor Shai0717" height="225" width="600" style="border: 0;"></iframe>
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/Shai0717?style=flat&logo=githubsponsors&color=ea4aaa)](https://github.com/sponsors/Shai0717)
